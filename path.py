@@ -82,7 +82,7 @@ def dfs(cell):
 
 # Visualization
 plt.ion()
-fig, ax = plt.subplots(figsize=(6,6))
+fig, ax = plt.subplots(figsize=(20,20))
 ax.imshow(grid, cmap='Greys', origin='upper')
 agent, = ax.plot([], [], 'ro', markersize=12)  # Agent marker
 ax.scatter(start[1], start[0], marker='s', color='green', s=100, label="Start")
