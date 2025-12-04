@@ -119,7 +119,3 @@ addMatrix()
 showMatrix(maColumn, addResultM, "C")
 substractMatrix(aMatrix, bMatrix)
 showMatrix(maColumn, subResultM, "D")
-
-
-# loops
-# set, dict, list, tuple
