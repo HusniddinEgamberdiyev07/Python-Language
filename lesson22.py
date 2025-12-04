@@ -50,10 +50,3 @@
 #     n1=n2
 #     n2=nth
 #     count+=1
-
-
-
-
-# Why do we need functions 
-# To remove repeated code blocks and automation
-# Cleaner code and easy to debbug
