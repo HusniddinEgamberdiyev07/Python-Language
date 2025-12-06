@@ -9,5 +9,9 @@ This repository contains practice files covering topics I have learned so far, i
 - Operators
 - Lists
 - Loops
-
-Each file is a small exercise or example to help me understand and practice Python concepts.
+- List
+- Tuple
+- Set
+- Dictionary
+- Conditions
+- Functions
