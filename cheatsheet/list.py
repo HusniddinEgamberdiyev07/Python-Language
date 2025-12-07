@@ -183,5 +183,3 @@ letters2 = ["a", "b", "c"]
 
 nums_letters = [[num, letter] for num in nums7 for letter in letters2]
 print(nums_letters)
-
-print("HI")
