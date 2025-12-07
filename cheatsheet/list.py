@@ -2,7 +2,7 @@
 
 # Mutable: items can be modified, replaced, or removed.
 # Ordered: maintains the order which items are added.
-# Index based: items are accessed using their position. (startinf from 0 or -1)
+# Index based: items are accessed using their position. (starting from 0 or -1)
 # Can store mixed data types.
 
 # 📖 Creating a list.
@@ -20,7 +20,7 @@ letters = list("Hello World")
 print(letters)      # -> ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 
 nums = list((1, 2, 3))      # -> We passed tuple
-print(nums)                 # -> [1, 2, 4]. Now it is list.
+print(nums)                 # -> [1, 2, 3]. Now it is list.
 
 # 3) Creating list with Repeated Elements.
 
@@ -54,7 +54,7 @@ empty = []
 empty.append("bye")
 print("append", empty)
 
-# 2) insert(position, element) -> Adds an elemenet at the specific position.
+# 2) insert(position, element) -> Adds an element at the specific position.
 
 empty.insert(0, "hi")
 print("insert", empty)

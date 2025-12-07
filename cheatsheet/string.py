@@ -97,10 +97,10 @@ print("Bye" in txt4)    # -> False
 
 # 1. Case Conversion:
 print("Hello World".lower())        # -> hello world. Lowercases everything.
-print("Hello World".upper())        # -> HELLO WORLD. Upercases everything.
+print("Hello World".upper())        # -> HELLO WORLD. Uppercases everything.
 print("hello woRld".title())        # -> Hello World. Capitalizes each word.
 print("Hello World".capitalize())   # -> Hello world. Uppercase only first word's first letter.
-print("Hello World".casefold())     # -> hello world. Strong lowercases.
+print("Hello World".casefold())     # -> hello world. Stronger lowercase.
 
 # 2. Search & Find
 print("Hello World".find("Wo"))     # -> 6. returns index of substring. Only first one.
@@ -136,10 +136,10 @@ print("1 ".join(["h", "e", "l", "l", "o"]))     # -> h1 e1 l1 l1 o
 
 print("text".center(20, "-"))   # -> --------text--------
 
-# "text".ljust(20, "-") -> 20-4=16. 16 "-" mines after text.
+# "text".ljust(20, "-") -> 20-4=16. 16 "-" after text.
 print("text".ljust(20, "-"))    # -> text----------------
 
-# "text".rjust(20, "-") -> 20-4=16. 16 "-" mines before text.
+# "text".rjust(20, "-") -> 20-4=16. 16 "-" before text.
 print("text".rjust(20, "-"))    # -> ----------------text
 
 # 5. Replace & Modify
