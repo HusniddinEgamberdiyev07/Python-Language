@@ -64,6 +64,12 @@ print("insert", empty)
 empty.extend(("get", "lost"))
 print("extend", empty)
 
+# 4) + -> Combine two lists.
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+print("concatenate", list1 + list2)
 
 
 # 📖 Removing elements from list.
