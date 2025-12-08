@@ -183,3 +183,40 @@ letters2 = ["a", "b", "c"]
 
 nums_letters = [[num, letter] for num in nums7 for letter in letters2]
 print(nums_letters)
+
+
+
+# 📖 Sorting list.
+
+numbers = [5, 2, 4, 3, 1]
+numbers.sort()      # sort() -> changes the original list. Ascending.
+print(numbers)
+
+numbers2 = [5, 2, 4, 3, 1]
+numbers2.sort(reverse=True)      # -> Descending.
+print(numbers2)
+
+names = ["ali", "John",  "bahodir", "Sam", "Bob"]
+names.sort()    # ['Bob', 'John', 'Sam', 'ali', 'bahodir'] -> Uppercase first then lowercase. Ascending.
+
+print(names)
+
+names2 = ["ali", "john",  "bahodir", "Sam", "Bob", "Dialyn"]
+names2.sort(key=str.lower)      # ['ali', 'bahodir', 'Bob', 'Dialyn', 'john', 'Sam'] -> Ignore case
+
+print(names2)
+
+languages = ["python", "c#", "javasrcipt", "java", "c++"]
+languages.sort(key=len)     # ['c#', 'c++', 'java', 'python', 'javasrcipt'] -> Sort by length
+
+print(languages)
+
+numbers3 = [5, 2, 4, 3, 1]
+sorted_nums3 = sorted(numbers3)     # sorted() -> Does not change the original list. Returns new list. Ascending.
+
+print(sorted_nums3)
+
+numbers4 = [5, 2, 4, 3, 1]
+sorted_nums4 = sorted(numbers4, reverse=True)       # -> Descending.
+
+print(sorted_nums4)
