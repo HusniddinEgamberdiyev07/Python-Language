@@ -220,3 +220,42 @@ numbers4 = [5, 2, 4, 3, 1]
 sorted_nums4 = sorted(numbers4, reverse=True)       # -> Descending.
 
 print(sorted_nums4)
+
+
+
+# 📖 Copying list.
+
+# 1) Basic copy
+
+list1 = [1, 2, 3]
+list2 = list1       # list2 is another name pointing to the same list in memory.
+
+list1.append(4)
+
+print(list2)        # [1 ,2, 3, 4] -> we are printing list2 but it has new item 4 but we added 4 to list1.
+                    # This happened because list2 is pointing to list1. It does not have it is own list.
+
+list3 = list1.copy()    # Now list3 has it is own list and it is same as list1.
+                        # But if we change list1 if will not effect list2
+
+list1.remove(4)
+
+print(list3)
+print(list1)
+
+# 2) Deep copy
+
+a = [[1, 2], [3, 4]]
+
+b = a.copy()    # We copied a to b. Now if I change a it will not effect b. Will it?
+
+a[0][1] = "Haha it changed"
+
+print(b)    # copy() will not copy nested lists. If we want to copy nested lists we should use copy.deepcopy().
+
+import copy
+
+c = copy.deepcopy(a)
+a[0][0] = "It won't change c"
+
+print(c)
