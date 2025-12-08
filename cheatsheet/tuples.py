@@ -27,6 +27,10 @@ nums = 1, 2, 3
 print(nums)
 print(type(nums))
 
+# 4) Creating tuple with only one value.
+
+num = (5,)      # You should put comma after value.
+
 
 # 📖 Accessing tuple elements.
 
@@ -63,7 +67,7 @@ del tuple3
 
 
 
-# Tuple unpacking.
+# 📖 Tuple unpacking.
 
 tuple3 = (1, 2, 3)
 num1, num2, num3 = tuple3
